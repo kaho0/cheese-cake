@@ -69,3 +69,17 @@ text-align: left;
    font-style: normal;
    color: black;
  }
+ .tikbox-lite{
+    font-style: italic;
+    font-weight: 580;
+ }
+ .yield{
+    display: flex;
+    text-align: center;
+ }
+ .timer{
+margin-left: 1100px;
+position: top right;
+
+
+ }
