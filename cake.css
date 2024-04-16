@@ -1,0 +1,71 @@
+body{
+    margin-left: 60px;
+
+}
+.montserrat-alternates-medium{
+    width: 50%;
+font-size: 14px;
+font-style: italic;
+font-weight: 500;
+line-height: 17.07px;
+text-align: left;
+ color: #4F4F4F;
+
+}
+.montserrat-alternates-medium {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+.cake{
+    width: 100%;
+    height: 50%;
+    display: grid;
+    
+}
+.cake{
+    Width:969px;
+Height:444px;
+Top:219px;
+Left:234px;
+Radius:12px;
+}
+.ingrid{
+    font-family: Playfair Display;
+font-size: 24px;
+font-weight: 700;
+line-height: 31.99px;
+text-align: left;
+
+}
+
+.playfair-display-unique {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.playfair-display-unique {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    
+  }
+ .ingrid{
+    
+ }
+ .tikbox{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-style: normal;
+    
+ }
+
+ .montserrat-unique {
+   font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: bold;
+   font-style: normal;
+   color: black;
+ }
