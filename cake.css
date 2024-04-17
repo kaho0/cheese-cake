@@ -26,8 +26,7 @@ text-align: left;
 .cake{
     Width:969px;
 Height:444px;
-Top:219px;
-Left:234px;
+
 Radius:12px;
 }
 .ingrid{
@@ -51,9 +50,7 @@ text-align: left;
     font-weight: 400;
     
   }
- .ingrid{
-    
- }
+ 
  .tikbox{
     display: flex;
     flex-direction: row;
@@ -76,10 +73,76 @@ text-align: left;
  .yield{
     display: flex;
     text-align: center;
+    float: left top;
+    color: #F2994A;
  }
- .timer{
-margin-left: 1100px;
-position: top right;
-
-
+ .playfair-display-unique{
+  grid-area: ingredients;
  }
+ .graham{
+  grid-area: graham;
+ }
+ .tik-wala-gula{
+  grid-area: tik-wala-gula ;
+ }
+ .right-side {
+  float: top right;
+  margin-left: 200px; /* Adjust as needed */
+  width: 200px; /* Adjust as needed */
+  grid-area: right-side;
+  background: #FFFFFF;
+  box-shadow: 20% gray;
+  border-radius: 30px;
+  padding: 30px;
+
+}
+.cheese{
+  grid-area: cheese;
+}
+ .should-be-half {
+  display: grid;
+  
+  grid-template-areas: 
+  "ingredients     right-side"
+  "graham          right-side"
+  "tik-wala-gula       right-side"
+  "cheese              right-side";
+  
+ 
+}
+.last-p {
+  margin-bottom:10px;
+}
+.number-1, .number-2 , .number-3{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:25px;
+  height:25px;
+  border-radius:20%;
+  background-color:#F2994A;
+  color:#fff;
+}
+.last-para{
+  width: 50%;
+
+}
+.montserrat-alternates-700{
+    width: 50%;
+font-size: 14px;
+font-weight: 400;
+line-height: 17.07px;
+text-align: left;
+ color: #000000;
+ margin-top: 40px;
+ font-family: "Montserrat Alternates", sans-serif;
+
+}
+.crust,.filling,.bath{
+  width: 50%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.07px;
+  text-align: left;
+   color: #000000;
+}
